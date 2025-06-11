@@ -29,7 +29,7 @@ npm install
 npm run build
 
 # Clone this repository
-git clone <your-repo-url>
+git clone https://github.com/SeanXT/restaurant-webscan.git
 cd restaurant-webscan
 
 # Install dependencies
