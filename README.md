@@ -62,7 +62,6 @@ DEBUG=restaurant-webscan:*
 npm run dev https://restaurant-website.com
 
 # Examples
-npm run dev https://labellamanagua.ca
 npm run dev https://yuzusushi.ca
 npm run dev https://olivegarden.com
 
@@ -204,39 +203,6 @@ interface RestaurantDataWithConfidence {
   };
 }
 ```
-
-## 🚨 Important Notes
-
-### System Requirements
-
-- **MCP Server**: Requires manually built webscan server from GitHub repository
-- **Path Configuration**: Absolute paths required for webscan server in environment variables
-- **Node.js Version**: Requires Node.js 18+ for proper ES module support
-- **Memory Usage**: Analysis of large restaurant websites may require increased Node.js heap size
-
-### Reliability & Performance
-
-- **Success Rate**: 90%+ for properly configured systems with valid restaurant websites
-- **Analysis Quality**: Professional-grade insights powered by Google Gemini Flash 2.0
-- **Speed**: Typically 15-45 seconds per restaurant analysis depending on website complexity
-- **Multi-Page Limit**: Maximum 3 additional pages analyzed to prevent excessive processing time
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**"Failed to connect to stdio server 'webscan'"**: Check webscan server path in `.env`
-```bash
-WEBSCAN_SERVER_PATH=/absolute/path/to/mcp-server-webscan/build/index.js
-```
-
-**"Gemini API Error"**: Verify your API key configuration
-```bash
-GEMINI_API_KEY=your_actual_key_here
-```
-
-**"Received tool input did not match expected schema"**: URL validation issue - check for malformed links
-**"tsx not recognized"**: Use `npx tsx` or install tsx globally with `npm install -g tsx`
 
 ### Debug Mode
 
