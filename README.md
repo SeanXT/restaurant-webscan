@@ -244,14 +244,6 @@ GEMINI_API_KEY=your_actual_key_here
 DEBUG=restaurant-webscan:* npm run dev https://restaurant-website.com
 ```
 
-### Path Issues on Windows
-
-Use forward slashes or double backslashes:
-```bash
-# Correct
-WEBSCAN_SERVER_PATH=C:/Users/Sean/mcp-server-webscan/build/index.js
-# Or
-WEBSCAN_SERVER_PATH=C:\\Users\\Sean\\mcp-server-webscan\\build\\index.js
 ```
 
 ---
